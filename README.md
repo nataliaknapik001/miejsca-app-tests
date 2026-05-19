@@ -22,6 +22,7 @@ Projekt zawiera 5 testów:
 - historia wyszukiwań
 - kolejność historii
 - zmiana kategorii
+<img width="1915" height="1006" alt="image" src="https://github.com/user-attachments/assets/f40e8b64-922f-4567-ae32-5882ce52bcaa" />
 
 ---
 
