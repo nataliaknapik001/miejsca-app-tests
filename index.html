@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Miejsca w pobliżu</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h1>Miejsca w pobliżu</h1>
+
+<select data-testid="city-select" id="city">
+  <option>Warszawa</option>
+  <option>Kraków</option>
+  <option>Gdańsk</option>
+</select>
+
+<select data-testid="category-select" id="category">
+  <option>pizza</option>
+  <option>burger</option>
+  <option>sushi</option>
+</select>
+
+<button data-testid="search-button" onclick="search()">
+  Szukaj
+</button>
+
+<h2>Wyniki</h2>
+<div id="results"></div>
+
+<h2>Historia</h2>
+<div id="history"></div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
