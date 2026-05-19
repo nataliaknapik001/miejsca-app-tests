@@ -1,40 +1,32 @@
-# \# Miejsca App Tests
+# Miejsca-App Tests
 
-# 
+Projekt testów **End-to-End (E2E)** w Playwright dla aplikacji wyszukiwania miejsc.
 
-# Projekt testów E2E w Playwright.
 
-# 
+## 📌 Funkcje testowane
 
-# \## Funkcje
+- wyszukiwanie miejsc (miasto + kategoria)
+- wyświetlanie wyników na mapie
+- historia wyszukiwań
+- zmiana kategorii i aktualizacja wyników
+- poprawność interfejsu użytkownika
 
-# \- wyszukiwanie miejsc
+---
 
-# \- historia wyszukiwań
+Testy E2E
 
-# \- zmiana kategorii
+Projekt zawiera 5 testów:
 
-# \- testy UI
+- wyszukiwanie miejsca
+- sprawdzenie UI
+- historia wyszukiwań
+- kolejność historii
+- zmiana kategorii
 
-# 
+---
 
-# \## Uruchomienie
-
-# 
-
-# npm install  
-
-# npm run dev  
-
-# npx playwright test
-
-# 
-
-# \## Technologie
-
-# \- Playwright
-
-# \- HTML
-
-# \- JavaScript
-
+ Uruchomienie projektu
+```bash
+npm install
+npm run dev
+npx playwright test
